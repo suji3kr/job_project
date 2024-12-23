@@ -1,0 +1,23 @@
+/* 검색폼에 스타일적용 */
+.TodoList .searchbar {
+    margin-bottom: 100px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(220,220,220);
+    box-sizing: border-box;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+
+/* 검색폼을 클릭했을 때의 스타일 적용 */
+.TodoList .searchbar:focus {
+    border-bottom: 1px solid #7c91a5;
+    outline: none;
+}
+
+.TodoList .list_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
